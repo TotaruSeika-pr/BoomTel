@@ -55,8 +55,8 @@ def main():
     if args.date == 'Now':
         SendMessage(args.token, args.UserID, args.massage)
     else:
+        print('We are waiting for the right moment ...')
         while True:
-            print('We are waiting for the right moment ...')
             date_now = datetime.now()
             date_now = str(date_now.year)+'-'+str(date_now.month)+'-'+str(date_now.day)+' '+str(date_now.hour)+':'+str(date_now.minute)
 
