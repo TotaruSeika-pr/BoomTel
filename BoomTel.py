@@ -62,6 +62,7 @@ def main():
 
             if date_now == args.date:
                 SendMessage(args.token, args.UserID, args.massage)
+                break
 
             else:
                 time.sleep(1)
