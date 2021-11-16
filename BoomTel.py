@@ -2,9 +2,7 @@
 
 import requests
 
-#token = '2138879226:AAEyuMiFRYw8_e_NeJug231AgBAox0YQZBg'
-token = '977978002'
-url = 'https://api.telegram.org/id'
+url = 'https://api.telegram.org/bot'
 
 def SendMessage(id, text):
     method = url + token + '/SendMessage'
